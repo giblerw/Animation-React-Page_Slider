@@ -33,7 +33,7 @@ class App extends React.Component {
   render() {
     return (
       <Parallax className="container" ref="parallax" pages={3} horizontal scrolling={false}>
-        <Page offset={0} gradient="pink" first="FA" second="RT" onClick={() => this.scroll(1)} />
+        <Page offset={0} gradient="pink" first="F..A.." second="..R..T" onClick={() => this.scroll(1)} />
         <Page offset={1} gradient="teal" first="What does" second="That spell?" onClick={() => this.scroll(2)} />
         <Page offset={2} gradient="tomato" first="fart!" onClick={() => this.scroll(0)} />
       </Parallax>
